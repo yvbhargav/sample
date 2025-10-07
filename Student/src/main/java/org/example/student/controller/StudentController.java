@@ -6,6 +6,7 @@ public class StudentController {
 
     @GetMapping("/get")
     public String getStudent() {
+        String s="hi";
         return "Hello Student+bhargav";
     }
 }
